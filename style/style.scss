@@ -35,6 +35,7 @@ body {
         position: sticky;
         top: 0;
         z-index: 10;
+        box-shadow: 0 10px 6px -6px #777;
 
         section.logo {
             flex: 2 1 400px;
@@ -256,4 +257,18 @@ body {
     }
 
 
+}
+
+//Track
+::-webkit-scrolLbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrolLbar-thumb {
+    background-color: $themecolor;
+}
+/* Handle on hover */
+::-webkit-scrolLbar-thumb:hover {
+    background-color: rgb(245, 78, 214);
 }

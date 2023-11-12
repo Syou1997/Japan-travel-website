@@ -31,6 +31,7 @@ body header {
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: 0 10px 6px -6px #777;
 }
 body header section.logo {
   flex: 2 1 400px;
